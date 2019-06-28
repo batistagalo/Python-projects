@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 28 20:27:09 2019
+
+@author: m.galo
+"""
+
+"Considerando que uma hora tem 60 minutos e um minuto tem 60 seguntos, temos a seguinte função"""
+
+""" 
+Dado 1.5 horas, temos
+"""
+
+h=1.5
+s = h*3600
+print('1.5=',s,'segundos')
+
+"""
+Dado 12 horas, temos
+"""
+h=12
+s = h*3600
+print('12=',s,'segundos')
+
+"""
+Dado 24 horas,temos
+"""
+h=24
+s = h*3600
+print('24=',s,'segundos')
