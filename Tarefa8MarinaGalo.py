@@ -10,7 +10,7 @@
 # Por isso foi utilizado % (resto) 
     
     
-# Para a variável (a igual a 1
+# Para a variável (a) igual a 1
 a= 1
 y= a%2
 
