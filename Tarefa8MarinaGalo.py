@@ -44,11 +44,11 @@ else:
     print('c é ímpar =', c)
     
 
-    
-    
+   
 # Para a variável (d) igul a 5
 d= 5
 y= d%2
+
 if y == 0:
     print('d é par =', d)
 else:
