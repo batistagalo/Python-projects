@@ -140,8 +140,8 @@ print('Atividade 4:')
 
 y= 1.7 
 f1= (y**2)- np.sin(0.784*(y**2))-2
-print('Resulta no número mais próximo de 0 em y=',(f1))
-    #Pode também ser utilizado np.floor para arredondamento de y para 0 
+print('Em y=', y, ', temos o valor f(y)=',f1, 'mais aproximado do f(y)=0')
+    #Pode também ser utilizado função piso (np.floor) para arredondamento de y para 0 
 
     #Vetores e função utiliados para construir o gráfico:
 y2= np.arange(-2, 2.5, 0.5)
