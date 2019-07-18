@@ -72,7 +72,7 @@ print('Atividade 2:')
 x= np.arange(0 , 9, 1)
 print('Intervalo da concentração de íons hidrônio:', x)
 
-    #Fórmula e variável utiliada:
+    #Fórmula e variável utilizada:
 A= ((x**3)+ 3*(x**2)-(54))
 
      #Execução do gráfico (eixo y)
