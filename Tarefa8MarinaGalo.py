@@ -22,7 +22,7 @@ i2= np.ceil(i)
 if i2 < 17 :
     print(i2, 'Kg/mª','= IMC Muito abaixo do peso')
 else:
-    if 17 < i2 <= 25:
+    if 17 < i2 <= 18.5:
         print(i2, 'Kg/mª','= IMC Abaixo do peso')
     else:
         print(i2, 'Kg/mª','= IMC Pesso normal') 
