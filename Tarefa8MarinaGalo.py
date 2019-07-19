@@ -20,12 +20,12 @@ i2= np.ceil(i)
 
     # Classificação utilizada:
 if i2 < 17 :
-    print(i2, 'Kg/mª','= IMC Muito abaixo do peso')
+    print(i2, 'Kg/m²','= IMC Muito abaixo do peso')
 else:
     if 17 < i2 <= 18.5:
-        print(i2, 'Kg/mª','= IMC Abaixo do peso')
+        print(i2, 'Kg/m²','= IMC Abaixo do peso')
     else:
-        print(i2, 'Kg/mª','= IMC Pesso normal') 
+        print(i2, 'Kg/m²','= IMC Pesso normal') 
  
 # letra B - Sendo massa igual a 83 Kg e altura 1.75 metros, temos:
         
@@ -37,12 +37,12 @@ i3= np.floor(i)
 
     # Classificação utilizada:
 if 17 < i3 <= 25:
-    print( i3, 'Kg/mª','= IMC Pesso normal')
+    print( i3, 'Kg/m²','= IMC Pesso normal')
 else:
     if 30 > i3 > 25:
-        print(i3, 'Kg/mª','= IMC Acima do peso')
+        print(i3, 'Kg/m²','= IMC Acima do peso')
     else:
-        print(i3, 'Kg/mª','= IMC Obesidade Grau I') 
+        print(i3, 'Kg/m²','= IMC Obesidade Grau I') 
 
 # Letra C - Sendo massa igual a 60 Kg e altura 1.52 metros, temos:
         
@@ -54,9 +54,9 @@ i4= np.ceil(i)
 
     # Classificação utilizada:
 if 17 < i4 <= 25:
-    print(i4, 'Kg/mª','= IMC Peso normal')
+    print(i4, 'Kg/m²','= IMC Peso normal')
 else:
-    print(i4,'Kg/mª','= IMC Acima do peso')
+    print(i4,'Kg/m²','= IMC Acima do peso')
     
 print(  )
 
