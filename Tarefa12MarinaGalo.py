@@ -78,31 +78,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 t= np.linspace(0, 10, 100000)
-
-N=100000
-x=0
-for i in range(1 ,N+1, 1):
-        x= x +((4/np.pi)*np.sin((2*i-1)*t)/(2*i-1))
-#Esse script é o gráfico da aproximação da série de Fourier:
-        
-plt.figure()
-plt.plot(t,x, color= 'green')
-plt.xlabel('t')
-plt.ylabel('x(t)')
-plt.grid()
-plt.show()
-
-#Esse script é o gráfico da aproximação da série de Fourier:
 N=100000
 u=0
 for i in range(1 ,N+1, 1):
         u= u +((4/np.pi)*np.sin((2*i-1)*t)/(2*i-1))
-#Esse script é o gráfico da aproximação da série de Fourier:
         
 plt.figure()
 plt.plot(t,x, color= 'green')
-plt.xlabel('t')
-plt.ylabel('x(t)')
+plt.xlabel('Período')
+plt.ylabel('Domínio da função')
 plt.grid()
 plt.show()
 
