@@ -137,7 +137,7 @@ def FunçãoInclinação(x1,x2,y1,y2,N):
     plt.plot(0, b, color= 'crimson', marker= 's') #Ponto que cruza o eixo y 
     plt.plot(VetorX, VetorY)
     plt.plot(x1,y1, color= 'black', marker= 's') #Ponto entrada
-    plt.plot(x2,y2, color= 'black', marker= 's') ##Ponto entrada
+    plt.plot(x2,y2, color= 'black', marker= 's') #Ponto entrada
     plt.xlabel('Valores de x')
     plt.ylabel('Valores de y')
     plt.title('Gráfico de Inclinação')
