@@ -38,7 +38,7 @@ def funçãoX (t, A, b, c):
 
 x1= funçãoX(np.linspace (0, 10, 1000), 2, 0.5, 0) #Letra a
 x2= funçãoX(np.arange (0, 15, 0.2), 10, 0.2, 1) #Letra b
-x3= funçãoX(np.linspace (-0.5, 0.5, 500), -3, -1.5, 10) #Letra c
+x3= funçãoX(np.linspace (-0.5, 0.5, 500), -3, -1.5, -10) #Letra c
 print(  )
 
 ''' Atividade 2- Faça uma função que ao ser executada sorteia um número entre 
