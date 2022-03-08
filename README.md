@@ -1,1 +1,1 @@
-# Projetos Python
+# Lesson's computational foundations of science
